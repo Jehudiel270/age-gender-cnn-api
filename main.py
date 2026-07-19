@@ -19,7 +19,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://age-gender-ai-nuxt.vercel.app",
+        "https://age-gender-ai.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
